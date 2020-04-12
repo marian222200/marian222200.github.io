@@ -1,0 +1,15 @@
+.image-rows{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.imagine{
+    display:flex;
+    flex-direction: column;
+    max-width: 300px;
+    justify-content: center;
+}
+.imag{
+    align-self: center;
+    max-width: 300px;
+}

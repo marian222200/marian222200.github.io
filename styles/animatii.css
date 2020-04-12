@@ -1,0 +1,15 @@
+@keyframes spin {
+    0% {
+        transform: rotateZ(0);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+#ak:hover{
+    animation: spin 1s linear infinite;
+}
+#ak{
+    position:relative;
+    left:50%;
+}

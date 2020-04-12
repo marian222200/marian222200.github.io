@@ -1,0 +1,37 @@
+
+@font-face {
+    font-family: crazer;
+    src: url(../fonts/Crazer-mL13m.woff);
+}
+@font-face {
+    font-family: souls;
+    src: url(../fonts/ThirstyForSouls-x3Br.woff);
+}
+span{
+    color:rgb(0, 158, 0);
+    display:flex;
+    align-self: center;
+    font-family:crazer;
+    font-size: 25px;
+}
+main{
+    background-color: rgba(1, 20, 54, 0.95);
+    color:white;
+    max-width:70%;
+    align-self: center;
+    position:absolute;
+    top:15%;
+    padding:10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-family:souls;
+    font-size:100px;
+    color: rgb(102, 6, 6);
+    margin-bottom:5px;
+}
+main#tutorial{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}

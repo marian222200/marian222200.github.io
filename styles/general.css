@@ -1,0 +1,80 @@
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(12, 111, 136);
+    width:100%;
+    top:0;
+    left:0;
+    position:fixed;
+    z-index:1;
+    max-height: 20%;
+    min-height: 10%;
+}
+.banner{
+    position:fixed;
+    max-width: 100%;
+    z-index:-1;
+    top:20%;
+}
+header h1{
+    color:white;
+    border:8px solid white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    background-color: rgba(1, 20, 54, 0.95);
+}
+header h1 a{
+    color:white;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+    display:flex;
+    justify-content: center;
+}
+menu{
+    z-index:2;
+    position:fixed;
+    left:1%;
+}
+
+
+
+
+
+.dropdbtn {
+    color:white;
+    background-color: rgba(1, 20, 54, 0.95);
+    border:8px solid white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 2em;
+  }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgba(1, 20, 54, 0.95);
+    margin:10px solid white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: 20px;
+    font-size: 2em;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: rgb(0, 76, 78);
+    border-radius: 20px;}
+  
+  .dropdown:hover .dropdown-content {display: block;
+    border-radius: 20px;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;
+    border-radius: 20px;}

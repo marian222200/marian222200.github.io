@@ -1,0 +1,22 @@
+form{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.login{
+    color:white;
+    background-color: rgba(1, 20, 54, 0.95);
+    border:8px solid white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 2em;
+}
+aux{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+a{
+    display: flex;
+    justify-content: center;
+}

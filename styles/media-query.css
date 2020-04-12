@@ -1,0 +1,16 @@
+@media screen and (max-width:640px){
+    h2{
+        font-size:50px;
+    }
+    body > header > h1{
+        display:none;
+    }
+    video{
+        max-width:240px;
+    }
+}
+@media screen and (max-width:1500px){
+    video{
+        width:700px;
+    }
+}
